@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:5173") // Allows your React app (running on a different port) to make requests without CORS errors
+@CrossOrigin(origins = "https://panic-button-rose.vercel.app/") // Allows your React app (running on a different port) to make requests without CORS errors
 public class TaskController {
 
     private final TaskBreakdownService taskBreakdownService;
