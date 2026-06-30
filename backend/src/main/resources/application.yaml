@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: panicbutton
+
+gemini:
+  api:
+    key: ${GCP_API_KEY}
