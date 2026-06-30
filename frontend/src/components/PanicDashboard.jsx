@@ -35,7 +35,7 @@ function PanicDashboard() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8080/api/tasks/breakdown', {
+      const response = await fetch('https://panic-button-backend-bito.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title: taskInput, deadline: deadline })
